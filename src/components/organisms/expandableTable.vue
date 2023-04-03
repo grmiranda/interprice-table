@@ -155,7 +155,6 @@ const fields = computed(() => {
         formatter: (_value: unknown, _key: string, item: TableCompany, indicator: string) => {
           let value = ''
           const indicatorKey = indicator ? indicator : selectedIndicator.value
-          console.log(indicatorKey)
           if (item.quotes && item.quotes[indicatorKey]) {
             value = item.quotes[indicatorKey].find((quote) => {
               return quote.key === `${year}-${selectedCurrency.value}-${type}`
