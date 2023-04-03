@@ -1,6 +1,9 @@
 # inter-price-table
 
-This template should help get you started developing with Vue 3 in Vite.
+data.json should be put on assets, the table is full dinamic, feel free to change:
+- Years (just add a new quote with a different year number)
+- Currency (just add a new quote with a different currency label)
+FIY.: Just the indicators are hardCoded
 
 ## Recommended IDE Setup
 
